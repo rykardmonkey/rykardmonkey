@@ -19,6 +19,8 @@ def main():
     playerFileList = get_filename_list(PLAYER_FILE_PATH)
     print(playerFileList)
 
+    for i in playerFileList:
+        
 
 if __name__ == "__main__":
     main()
