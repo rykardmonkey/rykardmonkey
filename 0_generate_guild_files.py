@@ -36,9 +36,6 @@ def main():
     # intialize client
     client = connect_to_client()
 
-    playerFileName = 'RykarSinistar.player.' + str(allycode) + '.json'
-    generate_data_file(PLAYER_FILE_PATH, playerFileName, 'player', allycode, client)
-
     # generating guild file based on my allycode
     guildFileName = 'guild.json'
     generate_data_file(GUILD_FILE_PATH, guildFileName, 'guild', allycode, client)
